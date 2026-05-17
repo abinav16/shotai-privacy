@@ -10,8 +10,7 @@ This Privacy Policy describes how **Ai OriginX** (“we,” “us,” or “our�
 **Location:** Coimbatore, India
 
 **App package name:** `com.dupulu.shotai`  
-**Policy URL:** https://github.com/you/shot_ai/blob/main/privacy.md  
-*(Replace `you` in the URL with your GitHub username or organization before publishing to Google Play.)*
+**Policy URL:** https://github.com/you/shot_ai/blob/main/privacy.md 
 
 ---
 
