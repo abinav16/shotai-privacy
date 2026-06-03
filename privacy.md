@@ -6,25 +6,25 @@
 This Privacy Policy describes how **Ai OriginX** (“we,” “us,” or “our”) collects, uses, stores, and shares information when you use the **Shot.ai** mobile application and related services (the “App”).
 
 **Developer / legal name:** Ai OriginX  
-**Contact email:** [abinavbtech@gmail.com](mailto:abinavbtech@gmail.com)  
+**Contact email:** [aioriginx.apps@gmail.com](mailto:aioriginx.apps@gmail.com)  
 **Location:** Coimbatore, India
 
 **App package name:** `com.dupulu.shotai`  
-**Policy URL:** https://github.com/you/shot_ai/blob/main/privacy.md 
+**Policy URL:** https://github.com/abinav16/shotai-privacy/blob/main/privacy.md
 
 ---
 
 ## 1. Who this policy applies to
 
-This policy applies to users of Shot.ai who are **at least 13 years old**. The App is not directed to children under 13, and we do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us information, contact us at **abinavbtech@gmail.com** and we will take appropriate steps to delete it.
+This policy applies to users of Shot.ai who are **at least 13 years old**. The App is not directed to children under 13, and we do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us information, contact us at **aioriginx.apps@gmail.com** and we will take appropriate steps to delete it.
 
 ---
 
 ## 2. Information we collect
 
-### 2.1 Account and identity (Google Sign-In)
+### 2.1 Account and identity (Google or Apple Sign-In)
 
-When you sign in with Google, we receive information from Google such as:
+On **Android**, you may sign in with Google. On **iOS**, you may sign in with Google or Sign in with Apple. We receive information from your chosen provider such as:
 
 - Your Google account identifier (user ID)
 - Email address
@@ -34,7 +34,7 @@ We use **Firebase Authentication** to manage your account. We do not receive you
 
 ### 2.2 Content you provide
 
-To generate Play Store listing images, you may provide:
+To generate **App Store and Play Store** listing images, you may provide:
 
 - **Screenshots and images** from your device (via the image picker or related flows)
 - **Project names, descriptions, and design ideas** (text you enter)
@@ -55,7 +55,7 @@ We use this data to operate, secure, and improve the App.
 
 ### 2.4 Purchases and credits
 
-If you buy credit packs through **Google Play In-App Billing**, Google processes payment. We receive purchase-related data needed to verify transactions and grant credits (such as product ID, purchase token, and order identifiers) via our backend. We do not store your full payment card details.
+If you buy credit packs, **Google Play** (Android) or the **Apple App Store** (iOS) processes payment. We receive purchase-related data needed to verify transactions and grant credits (such as product ID and purchase or transaction identifiers) via our backend. We do not store your full payment card details.
 
 ### 2.5 Notifications and background processing
 
@@ -141,9 +141,9 @@ We use industry-standard measures appropriate to the nature of the data, includi
 
 ### 9.1 Access, correction, and deletion
 
-You may request access to, correction of, or deletion of your personal data by emailing **abinavbtech@gmail.com** from the address associated with your account (or with enough information for us to verify your identity).
+You may request access to, correction of, or deletion of your personal data by emailing **aioriginx.apps@gmail.com** from the address associated with your account (or with enough information for us to verify your identity).
 
-**Account deletion** is available **on request only** (there is no in-app “delete account” button at this time). After we verify your request, we will delete your Firebase Authentication account and associated user data subject to the retention period in Section 7.
+**Account deletion** is available in the App under **Account → Delete account**, or by emailing **aioriginx.apps@gmail.com**. We delete your Firebase Authentication account, Firestore profile, projects, and Cloud Storage files subject to the retention period in Section 7.
 
 ### 9.2 Sign-out
 
@@ -151,7 +151,7 @@ You can sign out of the App at any time. Local data on your device may remain un
 
 ### 9.3 India — Digital Personal Data Protection Act, 2023
 
-If you are in India, you may have rights under applicable law, including to access, correct, erase, and grievance redressal. Contact us at **abinavbtech@gmail.com**. You may also lodge a complaint with the Data Protection Board of India when applicable.
+If you are in India, you may have rights under applicable law, including to access, correct, erase, and grievance redressal. Contact us at **aioriginx.apps@gmail.com**. You may also lodge a complaint with the Data Protection Board of India when applicable.
 
 ---
 
@@ -179,7 +179,7 @@ For privacy questions, data requests, or complaints:
 
 **Ai OriginX**  
 Coimbatore, India  
-Email: **abinavbtech@gmail.com**
+Email: **aioriginx.apps@gmail.com**
 
 ---
 
