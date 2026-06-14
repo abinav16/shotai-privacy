@@ -1,16 +1,16 @@
-# Privacy Policy — Shot.ai
+# Privacy Policy — Shot.ai (iOS)
 
 **Effective date:** May 17, 2026  
-**Last updated:** May 17, 2026
+**Last updated:** June 14, 2026
 
-This Privacy Policy describes how **Ai OriginX** (“we,” “us,” or “our”) collects, uses, stores, and shares information when you use the **Shot.ai** mobile application and related services (the “App”).
+This Privacy Policy describes how **Ai OriginX** (“we,” “us,” or “our”) collects, uses, stores, and shares information when you use the **Shot.ai** iOS application and related services (the “App”).
 
 **Developer / legal name:** Ai OriginX  
 **Contact email:** [aioriginx.apps@gmail.com](mailto:aioriginx.apps@gmail.com)  
 **Location:** Coimbatore, India
 
-**App package name:** `com.dupulu.shotai`  
-**Policy URL:** https://github.com/abinav16/shotai-privacy/blob/main/privacy.md
+**App bundle ID:** `com.dupulu.shotai`  
+**Policy URL:** https://github.com/abinav16/shotai-privacy/blob/main/privacy-ios.md
 
 ---
 
@@ -22,64 +22,44 @@ This policy applies to users of Shot.ai who are **at least 13 years old**. The A
 
 ## 2. Information we collect
 
-### 2.1 Account and identity (Google or Apple Sign-In)
+### 2.1 Account and identity
 
-On **Android**, you may sign in with Google. On **iOS**, you may sign in with Google or Sign in with Apple. We receive information from your chosen provider such as:
+You may sign in with **Google**, **Sign in with Apple**, or **email and password**. We may receive:
 
-- Your Google account identifier (user ID)
+- Your account user ID
 - Email address
-- Display name and profile photo URL (if provided by Google)
+- Display name and profile photo URL (if provided by your sign-in provider)
 
-We use **Firebase Authentication** to manage your account. We do not receive your Google password.
+We use **Firebase Authentication**. We do not receive your Google or Apple password.
 
 ### 2.2 Content you provide
 
-To generate **App Store and Play Store** listing images, you may provide:
+To generate **App Store listing images**, you may provide:
 
-- **Screenshots and images** from your device (via the image picker or related flows)
-- **Project names, descriptions, and design ideas** (text you enter)
-- **App logos** you upload for mockups
-- **Play Store listing URLs or metadata** when you use import features (we may fetch publicly available listing information to assist generation)
+- Screenshots and images from your device
+- Project names, descriptions, and design ideas
+- App logos you upload for mockups
+- **App Store listing URLs or metadata** when you use import features
 
-This content is stored in **Firebase Cloud Storage** and **Cloud Firestore** under your user account so you can access projects across sessions and devices.
+This content is stored in **Firebase Cloud Storage** and **Cloud Firestore** under your user account.
 
 ### 2.3 Usage, device, and analytics data
 
-We and our service providers may collect:
-
-- App interactions and feature usage (e.g., screens viewed, generation started or completed)
-- Device type, operating system version, app version, and general diagnostic information
-- **Firebase Analytics** and related Firebase/Google measurement data
-
-We use this data to operate, secure, and improve the App.
+We may collect app interactions, device type, OS and app version, and **Firebase Analytics** data to operate, secure, and improve the App.
 
 ### 2.4 Purchases and credits
 
-If you buy credit packs, **Google Play** (Android) or the **Apple App Store** (iOS) processes payment. We receive purchase-related data needed to verify transactions and grant credits (such as product ID and purchase or transaction identifiers) via our backend. We do not store your full payment card details.
+The **Apple App Store** processes payments for credit packs on iOS. We receive purchase data needed to verify transactions and grant credits (such as product ID and transaction identifiers). We do not store your full payment card details.
 
-### 2.5 Notifications and background processing
+### 2.5 Technical and security logs
 
-If you enable notifications or background generation, the App may use local notifications and background services to inform you when generation completes. This processing uses data already stored for your account and projects.
-
-### 2.6 Technical and security logs
-
-Our servers (including **Firebase Cloud Functions**) may log request metadata, error reports, and security-related events to operate and protect the service. Logs are retained only as long as needed for those purposes.
+Our servers (including **Firebase Cloud Functions**) may log request metadata and errors to operate and protect the service.
 
 ---
 
 ## 3. How we use information
 
-We use collected information to:
-
-- Create and manage your account
-- Store and sync your projects, drafts, and generated images
-- Run AI image generation and related processing (see Section 4)
-- Enforce credit balances and process in-app purchases
-- Send service-related notifications (where enabled)
-- Monitor performance, fix bugs, and prevent abuse or fraud
-- Comply with legal obligations
-
-We do not sell your personal information.
+We use information to create and manage your account; store and sync projects; run AI image generation; enforce credits and process purchases; monitor performance and prevent abuse; and comply with legal obligations. **We do not sell your personal information.**
 
 ---
 
@@ -87,95 +67,61 @@ We do not sell your personal information.
 
 ### 4.1 OpenAI
 
-To generate images and refine text from your inputs, we send relevant content (such as screenshot images, headlines, project text, and generation parameters) to **OpenAI** via our secure backend. OpenAI processes this data according to its own terms and privacy policy. We send only what is necessary to fulfill your generation request.
+We send relevant content (screenshots, text, generation parameters) to **OpenAI** via our secure backend to fulfill generation requests. OpenAI processes data under its own terms and privacy policy.
 
-### 4.2 Google / Firebase
+### 4.2 Google, Apple, and Firebase
 
-We use Google services including:
-
-- Firebase Authentication, Firestore, Cloud Storage, Cloud Functions, Remote Config, and Analytics
-- Google Sign-In
-- Google Play In-App Billing and purchase verification APIs
-
-Google’s processing is governed by [Google’s Privacy Policy](https://policies.google.com/privacy) and applicable product terms.
-
-### 4.3 Other processors
-
-We may use additional infrastructure providers (e.g., cloud hosting) that process data on our behalf under contractual safeguards and only for the purposes described in this policy.
+We use Firebase Authentication, Firestore, Cloud Storage, Cloud Functions, Analytics, Google Sign-In, Sign in with Apple, and Apple In-App Purchase on iOS. Google’s processing is governed by [Google’s Privacy Policy](https://policies.google.com/privacy). Apple’s practices are described at [apple.com/legal/privacy](https://www.apple.com/legal/privacy/).
 
 ---
 
-## 5. Legal bases (summary)
+## 5. How we share information
 
-Depending on your location, we rely on one or more of the following: performance of a contract (providing the App), legitimate interests (security, improvement, fraud prevention), consent (where required, e.g., optional features), and legal obligation.
-
----
-
-## 6. How we share information
-
-We may share information:
-
-- **With service providers** listed above, solely to operate the App
-- **When required by law** or to protect rights, safety, and security
-- **In connection with a business transfer** (e.g., merger or acquisition), with notice where required by law
-
-We do not share your project content with other users unless you explicitly use a share/export feature that sends content to a destination you choose.
+We share information with service providers listed above; when required by law; or in connection with a business transfer where permitted. We do not share your project content with other users unless you use a share or export feature you control.
 
 ---
 
-## 7. Data retention
+## 6. Data retention
 
-- **Active accounts:** We retain your account data, projects, and generated images while your account is active and as needed to provide the App.
-- **Account deletion:** If you request deletion of your account (see Section 9), we will delete or anonymize your personal data within a reasonable period. **Project content and associated files may be retained for up to 30 days** after deletion is processed (for backup, recovery, and operational integrity), after which they are removed from our active systems unless we must retain certain records longer for legal, security, or dispute-resolution purposes.
-- **Analytics and logs:** Retained for shorter periods consistent with operational needs.
-
----
-
-## 8. Security
-
-We use industry-standard measures appropriate to the nature of the data, including encrypted transport (HTTPS), Firebase security rules, and access controls on backend systems. No method of transmission or storage is 100% secure; we cannot guarantee absolute security.
+- **Active accounts:** We retain account data, projects, and generated images while your account is active.
+- **Account deletion:** Use **Account → Delete account** in the App, or email **aioriginx.apps@gmail.com**. We delete your authentication record, Firestore profile, projects, and Cloud Storage files. Backup copies may be retained for up to **30 days**, then removed unless longer retention is required by law.
+- **Analytics and logs:** Retained only as long as needed for operations.
 
 ---
 
-## 9. Your choices and rights
+## 7. Security
 
-### 9.1 Access, correction, and deletion
-
-You may request access to, correction of, or deletion of your personal data by emailing **aioriginx.apps@gmail.com** from the address associated with your account (or with enough information for us to verify your identity).
-
-**Account deletion** is available in the App under **Account → Delete account**, or by emailing **aioriginx.apps@gmail.com**. We delete your Firebase Authentication account, Firestore profile, projects, and Cloud Storage files subject to the retention period in Section 7.
-
-### 9.2 Sign-out
-
-You can sign out of the App at any time. Local data on your device may remain until you uninstall the App or clear app data.
-
-### 9.3 India — Digital Personal Data Protection Act, 2023
-
-If you are in India, you may have rights under applicable law, including to access, correct, erase, and grievance redressal. Contact us at **aioriginx.apps@gmail.com**. You may also lodge a complaint with the Data Protection Board of India when applicable.
+We use HTTPS, Firebase security rules, and access controls. No method of storage or transmission is completely secure.
 
 ---
 
-## 10. International transfers
+## 8. Your choices and rights
 
-Our service providers may process data in countries other than India (including the United States). Where required, we implement appropriate safeguards for cross-border transfers.
+You may request access, correction, or deletion by emailing **aioriginx.apps@gmail.com**. You may delete your account in the App under **Account → Delete account**.
 
----
-
-## 11. Changes to this policy
-
-We may update this Privacy Policy from time to time. We will post the updated version at the policy URL above and change the “Last updated” date. Material changes may be communicated in the App or by email where appropriate. Continued use after the effective date constitutes acceptance of the updated policy, to the extent permitted by law.
+If you are in India, you may have rights under the Digital Personal Data Protection Act, 2023.
 
 ---
 
-## 12. Governing law
+## 9. International transfers
 
-This Privacy Policy is governed by the **laws of India**. Courts in India shall have jurisdiction over disputes arising from this policy, subject to applicable consumer protection laws.
+Service providers may process data outside India (including the United States) with appropriate safeguards where required.
 
 ---
 
-## 13. Contact us
+## 10. Changes
 
-For privacy questions, data requests, or complaints:
+We may update this policy and change the “Last updated” date. Material changes may be communicated in the App or by email.
+
+---
+
+## 11. Governing law
+
+This policy is governed by the laws of **India**.
+
+---
+
+## 12. Contact
 
 **Ai OriginX**  
 Coimbatore, India  
@@ -183,4 +129,4 @@ Email: **aioriginx.apps@gmail.com**
 
 ---
 
-*Shot.ai is operated by Ai OriginX. Google, Google Play, Firebase, and Google Sign-In are trademarks of Google LLC. OpenAI is a third-party service provider and is not affiliated with Ai OriginX.*
+*Shot.ai is operated by Ai OriginX. Apple, App Store, and Sign in with Apple are trademarks of Apple Inc. Firebase and Google Sign-In are provided by Google LLC under their respective terms.*
